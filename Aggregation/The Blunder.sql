@@ -4,4 +4,4 @@ help finding the difference between her miscalculation (using salaries with any 
 and the actual average salary.*/
 
 SELECT CEIL((AVG(Salary))-(AVG(REPLACE(Salary, '0', ''))))
-FROM employees
+FROM employees;
